@@ -103,8 +103,8 @@ model.train(loader, epochs=10, T=20, gamma=0.2, alpha=0.01, forward=True)
 - `forward`: If True, uses forward predictive coding; if False, uses backward
 
 ## References
-- Rao, R. P., & Ballard, D. H. (1999). Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects. Nature neuroscience, 2(1), 79-87.
-- Whittington, J. C., & Bogacz, R. (2017). An approximation of the error backpropagation algorithm in a predictive coding network with local Hebbian synaptic plasticity. Neural computation, 29(5), 1229-1262.
+
+- [Predictive Coding Networks and Inference Learning: Tutorial and Survey](https://arxiv.org/abs/2407.04117) Björn van Zwol, Ro Jefferson, Egon L. van den Broek
 
 ## License
 MIT License
